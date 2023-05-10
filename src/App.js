@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
+import axios from 'axios';
 import './App.css';
+import Navbar from './components/navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect, useState } from 'react';
+import Main from './components/main';
+import Middle from './components/middle';
 
 function App() {
+
+  const [data, setData] = useState({})
+
+  const fetchData =()=>{
+     axios.get('https://w3yz.com/api/ch')
+    .then((data)=> data.data.products)
+    .then((products)=>setData(products))
+  }
+  console.log(data)
+  useEffect(() => {
+    fetchData()
+  }, []);
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar/>
+    <Main/>
+    <Middle/>
     </div>
   );
 }

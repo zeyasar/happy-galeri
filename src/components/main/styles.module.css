@@ -1,0 +1,49 @@
+.imageContainer{
+    position:relative;
+  display:inline-block;
+ 
+  
+}
+
+.imageContainer::after{
+    content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: linear-gradient(89.41deg, rgba(34, 0, 0, 0.8) 0.51%, rgba(87, 0, 0, 0) 99.54%);
+  
+}
+
+.mainImage{
+    max-width: 100%;
+}
+
+.textContainer{
+    width: 60%;
+    margin: auto;
+}
+
+
+.header{
+    font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 60px;
+text-transform: capitalize;
+color: #000000;
+text-align: center;
+margin-top: 7.5rem;
+margin-bottom: 2rem;
+}
+
+.paragraph{
+    font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+margin-bottom: 7.5rem;
+}
