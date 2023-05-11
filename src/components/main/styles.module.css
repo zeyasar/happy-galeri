@@ -1,7 +1,11 @@
+.container{
+    margin: 0 140px;
+}
+
 .imageContainer{
     position:relative;
   display:inline-block;
- 
+  width: 100%;
   
 }
 
@@ -17,6 +21,7 @@
 
 .mainImage{
     max-width: 100%;
+    
 }
 
 .textContainer{

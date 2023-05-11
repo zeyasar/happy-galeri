@@ -1,0 +1,62 @@
+.middleContainer{
+    background: radial-gradient(circle at 45% 40%, rgba(63,26,12) , rgba(37,4,0,1) 57%);
+}
+
+.headerContainer{
+    max-width: 612px;
+    margin:auto;
+}
+
+.header{
+    font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 60px;
+line-height: 82px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+padding-top: 7.5rem;
+}
+
+.container{
+    padding: 9.3rem 8.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomText{
+    font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 36px;
+line-height: 49px;
+color: #FFFFFF;
+
+}
+
+.carousel{
+    width: 185px;
+    height: 32px;
+}
+.indicators{
+    
+    display: inline;
+    margin: 0 27px;
+}
+.indicators button{
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.indicators button:first-of-type{
+    background: #FFFFFF;
+    width: 8px;
+    height: 8px;
+    margin-left: 19px;
+}
+

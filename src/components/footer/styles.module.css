@@ -1,0 +1,125 @@
+.container {
+  background: #250400;
+  color: #ffffff;
+  max-width: 100%;
+  position: relative;
+}
+
+.footer1 {
+  padding: 63px 10rem 44px 10rem;
+  display: flex;
+  width: 100%;
+}
+
+.leftContainer {
+  display: flex;
+  width: 60%;
+}
+.rightContainer {
+  width: 40%;
+  border-left: 1px solid #333333;
+}
+
+.links:first-of-type {
+  margin-right: 212px;
+}
+
+.links:nth-child(2) {
+  margin-right: 126px;
+}
+.links:last-child {
+  margin-right: 115px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.links > ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.links ul li:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.linkHeader {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.footer2Text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  padding-left: 20%;
+}
+.footer2Text:after {
+  content: "";
+  border-top: 1px solid #333333;
+  position: absolute;
+  width: 22%;
+  top: 70.88px;
+  transform: translateY(-50%);
+  margin-left: 5px;
+  margin-bottom: 37px;
+}
+
+.line {
+  width: 85%;
+  height: 1px;
+  background: #333333;
+  margin-bottom: 26px;
+}
+
+.footer2 {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 61px;
+}
+
+.footer2 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  color: #c6c6c6;
+  margin-right: 23px;
+}
+
+.socialLink {
+  display: flex;
+  padding-left: 20%;
+}
+
+.socialLink a {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.002);
+  box-shadow: inset 0px 0px 0px 2px #333333;
+  border-radius: 24px;
+  margin-right: 24px;
+}
+
+.icons {
+  color: #ffffff;
+  fill: #ffffff;
+  font-size: 1.5rem;
+}

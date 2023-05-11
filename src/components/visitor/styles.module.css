@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  margin: 0 140px 140px 140px;
+  color: #000000;
+  max-width: 100%;
+}
+
+.rightContainer {
+    width: 50%;
+    display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+
+.leftContainer {
+  width: 50%;
+  padding-right: 8%;
+}
+
+.header {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 82px;
+  text-transform: capitalize;
+ padding-top: 135px;
+}
+.choices {
+  display: flex;
+ width: 100%;
+ justify-content: space-between;
+}
+.choices > img{
+    width: 42px;
+}
+
+.choices:last-of-type {
+    padding-left: auto;
+}
+
+.text {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 41px;
+  margin-bottom: 293px;
+  text-transform: capitalize;
+  
+}
+
+.text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  
+  margin: 0 19px;
+  align-self: center;
+}
+
+.button {
+  background-color: #fff;
+  border: none;
+  margin-left: auto;
+  padding-right: 75px;
+}
+

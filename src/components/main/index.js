@@ -4,7 +4,7 @@ import mainImage from '../../images/mainImage.svg'
 
 const Main = () => {
   return (
-    <div className='container'>
+    <div className={styles.container}>
       <div className={styles.imageContainer}>
       <img src={mainImage} alt='mainImage' style={{width: "100%", height: "auto"}}/>
         
