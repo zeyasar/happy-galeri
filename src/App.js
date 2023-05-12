@@ -9,6 +9,7 @@ import Middle from './components/middle';
 import Podcast from './components/podcast';
 import Visitor from './components/visitor';
 import Footer from './components/footer';
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 function App() {
 

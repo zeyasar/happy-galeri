@@ -27,4 +27,8 @@ text-transform: uppercase;
     border-radius: 50%;
  }
 
+ .navbar .navbar-toggler{
+    margin-right: 50px;
+    border-color: rgb(223, 152, 40);
+ }
   

@@ -5,7 +5,7 @@ const Podcast = ({ galery }) => {
   console.log(galery);
   return (
     <div className={styles.container}>
-      <div className="d-flex" style={{gap:'155px'}}>
+      <div className={styles.firstContainer}>
         <div className={styles.text}>
           <p className={styles.header}>Podcast</p>
           <p className={styles.subHeader}>

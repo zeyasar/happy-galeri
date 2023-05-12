@@ -34,6 +34,11 @@
 .links ul li a {
   text-decoration: none;
   color: white;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
 }
 .links > ul {
   list-style-type: none;
@@ -122,4 +127,50 @@
   color: #ffffff;
   fill: #ffffff;
   font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1500px){
+    .footer1{
+      display: block;
+    }
+    .leftContainer{
+      width: 100%;
+      justify-content: center;
+      
+    }
+    .rightContainer{
+      width: 100%;
+      border: none;
+      text-align: center;
+      margin-top: 5rem;
+    }
+    .footer2Text{
+      padding-left: 0;
+    }
+    .socialLink{
+      padding-left: 0;
+      justify-content: center;
+    }
+    .footer2Text:after {
+      display: none;
+    }
+}
+@media only screen and (max-width: 1100px){
+  .footer2Text, .footer2 a, .linkHeader .links ul li a{
+    font-size: 11px;
+  }
+  .links:first-of-type {
+    margin-right: 0px;
+  }
+  
+  .links:nth-child(2) {
+    margin-right: 0px;
+  }
+  .links:last-child {
+    margin-right: 0px;
+  }
+  .leftContainer{
+    justify-content: space-between;
+  }
 }
