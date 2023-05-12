@@ -1,67 +1,109 @@
-.container{
-    margin: 0 140px;
+.container {
+  margin: 0 140px;
 }
 
-.imageContainer{
-    position:relative;
-  display:inline-block;
+.imageContainer {
+  position: relative;
+  display: inline-block;
   width: 100%;
-  
-  
 }
 
-.imageContainer::after{
-    content:'';
-  position:absolute;
-  left:0; top:0;
-  width:100%; height:100%;
-  display:inline-block;
-  background: linear-gradient(89.41deg, rgba(34, 0, 0, 0.8) 0.51%, rgba(87, 0, 0, 0) 99.54%);
+.imageContainer::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: linear-gradient(
+    89.41deg,
+    rgba(34, 0, 0, 0.8) 0.51%,
+    rgba(87, 0, 0, 0) 99.54%
+  );
   border-bottom-left-radius: 20px;
 }
-
-.mainImage{
-    max-width: 100%;
-    
+.imageTextContainer {
+  position: absolute;
+  top: 36%;
+  left: 211px;
+  width: 34%;
+}
+.imageHeader {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 82px;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
-.textContainer{
-    width: 60%;
-    margin: auto;
+.imageText {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 41px;
+  text-transform: capitalize;
+
+  color: #ffffff;
 }
 
-
-.header{
-    font-family: 'Manrope', sans-serif;
-font-style: normal;
-font-weight: 200;
-font-size: 60px;
-text-transform: capitalize;
-color: #000000;
-text-align: center;
-margin-top: 7.5rem;
-margin-bottom: 2rem;
+.mainImage {
+  max-width: 100%;
 }
 
-.paragraph{
-    font-family: 'Manrope', sans-serif;
-font-style: normal;
-font-weight: 200;
-font-size: 30px;
-text-align: center;
-text-transform: capitalize;
-color: #000000;
-margin-bottom: 7.5rem;
+.textContainer {
+  width: 60%;
+  margin: auto;
 }
 
-@media only screen and (max-width: 1500px){
-    .container{
-        margin: 0 auto;
+.header {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+  margin-top: 7.5rem;
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 7.5rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .container {
+    margin: 0 auto;
+  }
+  .header {
+    font-size: 3rem;
+  }
+  .paragraph {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1400px){
+    .imageHeader{
+        font-size: 2rem;
     }
-    .header{
-        font-size: 3rem;
+    .imageText{
+        font-size: 1rem ;
     }
-    .paragraph{
-        font-size: 1rem;
+}
+@media only screen and (max-width: 1200px){
+    .imageTextContainer{
+        top: 25%;
     }
 }
