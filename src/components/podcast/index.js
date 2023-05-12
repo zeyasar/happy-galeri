@@ -19,49 +19,49 @@ const Podcast = ({ galery }) => {
           <p className={styles.link}>SPOTİFAY</p>
         </div>
         <div className={styles.galleryContainer}>
-          <div class={styles.item1}>
+          <div className={styles.item1}>
             <img
               src={galery[6]?.imagelist[0].url}
               alt="Leonardo da Vinci"
               className="img-fluid"
             />
           </div>
-          <div class={styles.item2}>
+          <div className={styles.item2}>
             <img
               src={galery[7]?.imagelist[0].url}
               alt="Michelangelo"
               className="img-fluid"
             />
           </div>
-          <div class={styles.item3}>
+          <div className={styles.item3}>
             <img
               src={galery[9]?.imagelist[0].url}
               alt="Raphael"
               className="img-fluid"
             />
           </div>
-          <div class={styles.item4}>
+          <div className={styles.item4}>
             <img
               src={galery[3]?.imagelist[0].url}
               alt="Paul Cézanne"
               className="img-fluid"
             />
           </div>
-          <div class={styles.item5}>
+          <div className={styles.item5}>
             <img
               src={galery[6]?.imagelist[0].url}
               alt="Leonardo da Vinci"
               className="img-fluid"
             />
           </div>
-          <div class={styles.item6}>
+          <div className={styles.item6}>
             <img
               src={galery[8]?.imagelist[0].url}
               alt="Leonardo da Vinci"
               className="img-fluid"
             />
           </div>
-          <div class={styles.item7}>
+          <div className={styles.item7}>
             <img
               src={galery[8]?.imagelist[0].url}
               alt="Leonardo da Vinci"
@@ -69,7 +69,7 @@ const Podcast = ({ galery }) => {
             />
           </div>
 
-          <div class={styles.item8}>
+          <div className={styles.item8}>
             <img
               src={galery[4]?.imagelist[0].url}
               alt="Paul Cézanne"
@@ -79,41 +79,41 @@ const Podcast = ({ galery }) => {
         </div>
       </div>
       <div className={styles.cardContainer}>
-        <div class={`card text-bg-dark ${styles.card}`}>
-          <img src={galery[1]?.imagelist[0].url} class="card-img" alt="..." />
-          <div class="card-img-overlay">
-            <h5 class={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
-            <p class={`card-text mx-auto ${styles.cardText}`}>
+        <div className={`card text-bg-dark ${styles.card}`}>
+          <img src={galery[1]?.imagelist[0].url} className="card-img" alt="..." />
+          <div className="card-img-overlay">
+            <h5 className={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
+            <p className={`card-text mx-auto ${styles.cardText}`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
             </p>
             
           </div>
         </div>
-        <div class={`card text-bg-dark ${styles.card}`}>
-          <img src={galery[0]?.imagelist[0].url} class="card-img" alt="..." />
-          <div class="card-img-overlay">
-            <h5 class={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
-            <p class={`card-text mx-auto  ${styles.cardText}`}>
+        <div className={`card text-bg-dark ${styles.card}`}>
+          <img src={galery[0]?.imagelist[0].url} className="card-img" alt="..." />
+          <div className="card-img-overlay">
+            <h5 className={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
+            <p className={`card-text mx-auto  ${styles.cardText}`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
             </p>
             
           </div>
         </div>
-        <div class={`card text-bg-dark ${styles.card}`}>
-          <img src={galery[2]?.imagelist[0].url} class="card-img" alt="..." />
-          <div class="card-img-overlay">
-            <h5 class={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
-            <p class={`card-text mx-auto  ${styles.cardText}`}>
+        <div className={`card text-bg-dark ${styles.card}`}>
+          <img src={galery[2]?.imagelist[0].url} className="card-img" alt="..." />
+          <div className="card-img-overlay">
+            <h5 className={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
+            <p className={`card-text mx-auto  ${styles.cardText}`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
             </p>
             
           </div>
         </div>
-        <div class={`card text-bg-dark ${styles.card}`}>
-          <img src={galery[0]?.imagelist[0].url} class="card-img" alt="..." />
-          <div class="card-img-overlay">
-            <h5 class={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
-            <p class={`card-text mx-auto  ${styles.cardText}`}>
+        <div className={`card text-bg-dark ${styles.card}`}>
+          <img src={galery[0]?.imagelist[0].url} className="card-img" alt="..." />
+          <div className="card-img-overlay">
+            <h5 className={`card-title ${styles.cardTitle}`}>EUROPEAN</h5>
+            <p className={`card-text mx-auto  ${styles.cardText}`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
             </p>
             
